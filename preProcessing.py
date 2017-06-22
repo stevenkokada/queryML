@@ -47,12 +47,12 @@ featureVectors = scaler.transform(featureVectors)
 # plot PCA queries
 # pca = PCA(n_components = 2)
 # pca.fit(featureVectors)
-# transformVec = pca.transform(featureVectors)
+# featureVectors = pca.transform(featureVectors)
 
 # fig = plt.figure()
 # ax = Axes3D(fig)
 
-# ax.scatter([transformVec[i][0] for i in range(len(transformVec))], [transformVec[i][1] for i in range(len(transformVec))], targetVectors)
+# ax.scatter([featureVectors[i][0] for i in range(len(featureVectors))], [featureVectors[i][1] for i in range(len(featureVectors))], targetVectors)
 
 # plt.show()
 
